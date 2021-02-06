@@ -8,20 +8,242 @@
 
 /* Begin PBXBuildFile section */
 		EFB26D6A25CE581F00607DD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26D6925CE581F00607DD0 /* AppDelegate.swift */; };
-		EFB26D6E25CE581F00607DD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26D6D25CE581F00607DD0 /* ViewController.swift */; };
 		EFB26D7125CE581F00607DD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB26D6F25CE581F00607DD0 /* Main.storyboard */; };
 		EFB26D7325CE582300607DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFB26D7225CE582300607DD0 /* Assets.xcassets */; };
 		EFB26D7625CE582300607DD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB26D7425CE582300607DD0 /* LaunchScreen.storyboard */; };
+		EFB26D8325CE59B800607DD0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26D8225CE59B800607DD0 /* SignUpViewController.swift */; };
+		EFB26D8725CE59C800607DD0 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26D8625CE59C800607DD0 /* SignInViewController.swift */; };
+		EFB26D9025CE5A5700607DD0 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26D8F25CE5A5700607DD0 /* Users.swift */; };
+		EFB26D9425CE5A6600607DD0 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26D9325CE5A6600607DD0 /* Notes.swift */; };
+		EFB26D9725CE5A7000607DD0 /* Points.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26D9625CE5A7000607DD0 /* Points.swift */; };
+		EFB26D9A25CE5A7E00607DD0 /* CountAnimationLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26D9925CE5A7E00607DD0 /* CountAnimationLabel.swift */; };
+		EFB26D9D25CE5AB100607DD0 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26D9C25CE5AB100607DD0 /* MovieViewController.swift */; };
+		EFB26DA025CE5ACF00607DD0 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26D9F25CE5ACF00607DD0 /* ScheduleViewController.swift */; };
+		EFB26DA325CE5AEC00607DD0 /* AddScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DA225CE5AEC00607DD0 /* AddScheduleViewController.swift */; };
+		EFB26DA625CE5B0B00607DD0 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DA525CE5B0B00607DD0 /* ProfileViewController.swift */; };
+		EFB26DA925CE5B2300607DD0 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DA825CE5B2300607DD0 /* RankingViewController.swift */; };
+		EFB26DAD25CE5B5100607DD0 /* TimeLineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DAB25CE5B5100607DD0 /* TimeLineTableViewCell.swift */; };
+		EFB26DAE25CE5B5100607DD0 /* TimeLineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DAC25CE5B5100607DD0 /* TimeLineTableViewCell.xib */; };
+		EFB26DB125CE5C1800607DD0 /* ResourceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DB025CE5C1800607DD0 /* ResourceModel.swift */; };
+		EFB26DB525CE5C4500607DD0 /* ScaleAnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DB325CE5C4400607DD0 /* ScaleAnimationViewController.swift */; };
+		EFB26DB625CE5C4500607DD0 /* ScaleAnimationViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DB425CE5C4500607DD0 /* ScaleAnimationViewController.storyboard */; };
+		EFB26DB925CE5C5600607DD0 /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DB825CE5C5600607DD0 /* ImageCollectionViewCell.swift */; };
+		EFB26DBC25CE5C5F00607DD0 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DBB25CE5C5F00607DD0 /* ImageCollectionViewCell.xib */; };
+		EFB26DBF25CE5C6A00607DD0 /* UICollectionViewPagingFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DBE25CE5C6A00607DD0 /* UICollectionViewPagingFlowLayout.swift */; };
+		EFB26DDA25CE5CAF00607DD0 /* TeacherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DC225CE5CAF00607DD0 /* TeacherViewController.swift */; };
+		EFB26DDB25CE5CAF00607DD0 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DC425CE5CAF00607DD0 /* Photo.swift */; };
+		EFB26DDC25CE5CAF00607DD0 /* ViewModelBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DC625CE5CAF00607DD0 /* ViewModelBased.swift */; };
+		EFB26DDD25CE5CAF00607DD0 /* UIView+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DC725CE5CAF00607DD0 /* UIView+Utilities.swift */; };
+		EFB26DDE25CE5CAF00607DD0 /* NibBased.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DC825CE5CAF00607DD0 /* NibBased.swift */; };
+		EFB26DDF25CE5CAF00607DD0 /* QuantityControllerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DCB25CE5CAF00607DD0 /* QuantityControllerView.xib */; };
+		EFB26DE025CE5CAF00607DD0 /* QuantityControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DCC25CE5CAF00607DD0 /* QuantityControllerView.swift */; };
+		EFB26DE125CE5CAF00607DD0 /* PageControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DCD25CE5CAF00607DD0 /* PageControlView.swift */; };
+		EFB26DE225CE5CAF00607DD0 /* CollectionViewPagingLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DCF25CE5CAF00607DD0 /* CollectionViewPagingLayout.swift */; };
+		EFB26DE325CE5CAF00607DD0 /* TransformableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DD025CE5CAF00607DD0 /* TransformableView.swift */; };
+		EFB26DE425CE5CAF00607DD0 /* GalleryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DD325CE5CAF00607DD0 /* GalleryViewModel.swift */; };
+		EFB26DE525CE5CAF00607DD0 /* GalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DD425CE5CAF00607DD0 /* GalleryViewController.xib */; };
+		EFB26DE625CE5CAF00607DD0 /* PhotoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DD625CE5CAF00607DD0 /* PhotoCollectionViewCell.xib */; };
+		EFB26DE725CE5CAF00607DD0 /* PhotoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DD725CE5CAF00607DD0 /* PhotoCellViewModel.swift */; };
+		EFB26DE825CE5CAF00607DD0 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DD825CE5CAF00607DD0 /* PhotoCollectionViewCell.swift */; };
+		EFB26DE925CE5CAF00607DD0 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFB26DD925CE5CAF00607DD0 /* GalleryViewController.swift */; };
+		EFB26DED25CE5CFF00607DD0 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DEC25CE5CFF00607DD0 /* Login.storyboard */; };
+		EFB26E4425CE5D4600607DD0 /* rflogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DF025CE5D4500607DD0 /* rflogo.jpg */; };
+		EFB26E4525CE5D4600607DD0 /* kiyomi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DF325CE5D4500607DD0 /* kiyomi.jpg */; };
+		EFB26E4625CE5D4600607DD0 /* konomi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DF425CE5D4500607DD0 /* konomi.jpg */; };
+		EFB26E4725CE5D4600607DD0 /* motomi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DF525CE5D4500607DD0 /* motomi.jpg */; };
+		EFB26E4825CE5D4600607DD0 /* mitsu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DF625CE5D4500607DD0 /* mitsu.jpg */; };
+		EFB26E4925CE5D4600607DD0 /* arisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DF725CE5D4500607DD0 /* arisa.jpg */; };
+		EFB26E4A25CE5D4600607DD0 /* iPhone 887×87@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DF925CE5D4500607DD0 /* iPhone 887×87@3x.png */; };
+		EFB26E4B25CE5D4600607DD0 /* R&Ficon1024.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DFA25CE5D4500607DD0 /* R&Ficon1024.jpg */; };
+		EFB26E4C25CE5D4600607DD0 /* iPhone 860×60@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DFB25CE5D4500607DD0 /* iPhone 860×60@1x.png */; };
+		EFB26E4D25CE5D4600607DD0 /* iPhone 8167×167@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DFC25CE5D4500607DD0 /* iPhone 8167×167@2x.png */; };
+		EFB26E4E25CE5D4600607DD0 /* iTunesArtwork@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DFD25CE5D4500607DD0 /* iTunesArtwork@1x.png */; };
+		EFB26E4F25CE5D4600607DD0 /* Icon-App-76x76@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26DFF25CE5D4500607DD0 /* Icon-App-76x76@2x.png */; };
+		EFB26E5025CE5D4600607DD0 /* Icon-App-29x29@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E0025CE5D4500607DD0 /* Icon-App-29x29@1x.png */; };
+		EFB26E5125CE5D4600607DD0 /* Icon-App-40x40@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E0125CE5D4500607DD0 /* Icon-App-40x40@1x.png */; };
+		EFB26E5225CE5D4600607DD0 /* Icon-App-20x20@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E0225CE5D4500607DD0 /* Icon-App-20x20@1x.png */; };
+		EFB26E5325CE5D4600607DD0 /* Icon-App-83.5x83.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E0325CE5D4500607DD0 /* Icon-App-83.5x83.5@2x.png */; };
+		EFB26E5425CE5D4600607DD0 /* Icon-App-20x20@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E0425CE5D4500607DD0 /* Icon-App-20x20@3x.png */; };
+		EFB26E5525CE5D4600607DD0 /* ItunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E0525CE5D4500607DD0 /* ItunesArtwork@2x.png */; };
+		EFB26E5625CE5D4600607DD0 /* Icon-App-20x20@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E0625CE5D4500607DD0 /* Icon-App-20x20@2x.png */; };
+		EFB26E5725CE5D4600607DD0 /* Icon-App-29x29@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E0725CE5D4500607DD0 /* Icon-App-29x29@3x.png */; };
+		EFB26E5825CE5D4600607DD0 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E0825CE5D4500607DD0 /* Icon-App-40x40@2x.png */; };
+		EFB26E5925CE5D4600607DD0 /* Icon-App-60x60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E0925CE5D4500607DD0 /* Icon-App-60x60@3x.png */; };
+		EFB26E5A25CE5D4600607DD0 /* Icon-App-60x60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E0A25CE5D4600607DD0 /* Icon-App-60x60@2x.png */; };
+		EFB26E5B25CE5D4600607DD0 /* Icon-App-76x76@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E0B25CE5D4600607DD0 /* Icon-App-76x76@1x.png */; };
+		EFB26E5C25CE5D4600607DD0 /* Icon-App-40x40@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E0C25CE5D4600607DD0 /* Icon-App-40x40@3x.png */; };
+		EFB26E5D25CE5D4600607DD0 /* Icon-App-29x29@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E0D25CE5D4600607DD0 /* Icon-App-29x29@2x.png */; };
+		EFB26E5E25CE5D4600607DD0 /* lessonSchedule.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E0E25CE5D4600607DD0 /* lessonSchedule.png */; };
+		EFB26E5F25CE5D4600607DD0 /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E0F25CE5D4600607DD0 /* iTunesArtwork@2x.png */; };
+		EFB26E6025CE5D4600607DD0 /* iPhone 8120×120@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E1025CE5D4600607DD0 /* iPhone 8120×120@3x.png */; };
+		EFB26E6125CE5D4600607DD0 /* iPhone 8120×120@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E1125CE5D4600607DD0 /* iPhone 8120×120@2x.png */; };
+		EFB26E6225CE5D4600607DD0 /* iTunesArtwork@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E1225CE5D4600607DD0 /* iTunesArtwork@3x.png */; };
+		EFB26E6325CE5D4600607DD0 /* iPhone 8180×180@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E1325CE5D4600607DD0 /* iPhone 8180×180@3x.png */; };
+		EFB26E6425CE5D4600607DD0 /* iPhone 8152×152@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E1425CE5D4600607DD0 /* iPhone 8152×152@2x.png */; };
+		EFB26E6525CE5D4600607DD0 /* iPhone 880×80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E1525CE5D4600607DD0 /* iPhone 880×80@2x.png */; };
+		EFB26E6625CE5D4600607DD0 /* iPhone 858×58@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E1625CE5D4600607DD0 /* iPhone 858×58@2x.png */; };
+		EFB26E6725CE5D4600607DD0 /* HIPHOP.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E1825CE5D4600607DD0 /* HIPHOP.png */; };
+		EFB26E6825CE5D4600607DD0 /* LOCK.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E1925CE5D4600607DD0 /* LOCK.png */; };
+		EFB26E6925CE5D4600607DD0 /* JAZZFUNK.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E1A25CE5D4600607DD0 /* JAZZFUNK.png */; };
+		EFB26E6A25CE5D4600607DD0 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E1B25CE5D4600607DD0 /* background.jpg */; };
+		EFB26E6B25CE5D4600607DD0 /* POP.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E1C25CE5D4600607DD0 /* POP.png */; };
+		EFB26E6C25CE5D4600607DD0 /* VOGUE.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E1D25CE5D4600607DD0 /* VOGUE.png */; };
+		EFB26E6D25CE5D4600607DD0 /* WAACK.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E1E25CE5D4600607DD0 /* WAACK.png */; };
+		EFB26E6E25CE5D4600607DD0 /* status.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E1F25CE5D4600607DD0 /* status.png */; };
+		EFB26E6F25CE5D4600607DD0 /* unnamed.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E2025CE5D4600607DD0 /* unnamed.png */; };
+		EFB26E7025CE5D4600607DD0 /* JAZZ.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E2125CE5D4600607DD0 /* JAZZ.png */; };
+		EFB26E7125CE5D4600607DD0 /* ランク画像.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E2225CE5D4600607DD0 /* ランク画像.png */; };
+		EFB26E7225CE5D4600607DD0 /* TanukiMagic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E2425CE5D4600607DD0 /* TanukiMagic.ttf */; };
+		EFB26E7325CE5D4600607DD0 /* SourceHanSans-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E2625CE5D4600607DD0 /* SourceHanSans-Heavy.otf */; };
+		EFB26E7425CE5D4600607DD0 /* SourceHanSans-Normal.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E2725CE5D4600607DD0 /* SourceHanSans-Normal.otf */; };
+		EFB26E7525CE5D4600607DD0 /* SourceHanSans-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E2825CE5D4600607DD0 /* SourceHanSans-ExtraLight.otf */; };
+		EFB26E7625CE5D4600607DD0 /* SourceHanSans-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E2925CE5D4600607DD0 /* SourceHanSans-Light.otf */; };
+		EFB26E7725CE5D4600607DD0 /* SourceHanSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E2A25CE5D4600607DD0 /* SourceHanSans-Bold.otf */; };
+		EFB26E7825CE5D4600607DD0 /* SourceHanSans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E2B25CE5D4600607DD0 /* SourceHanSans-Regular.otf */; };
+		EFB26E7925CE5D4600607DD0 /* SourceHanSans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E2C25CE5D4600607DD0 /* SourceHanSans-Medium.otf */; };
+		EFB26E7A25CE5D4600607DD0 /* 07にくまるフォント.otf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E2D25CE5D4600607DD0 /* 07にくまるフォント.otf */; };
+		EFB26E7B25CE5D4600607DD0 /* Montserrat-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E2F25CE5D4600607DD0 /* Montserrat-LightItalic.ttf */; };
+		EFB26E7C25CE5D4600607DD0 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E3025CE5D4600607DD0 /* Montserrat-Medium.ttf */; };
+		EFB26E7D25CE5D4600607DD0 /* Montserrat-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E3125CE5D4600607DD0 /* Montserrat-BoldItalic.ttf */; };
+		EFB26E7E25CE5D4600607DD0 /* Montserrat-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E3225CE5D4600607DD0 /* Montserrat-Light.ttf */; };
+		EFB26E7F25CE5D4600607DD0 /* Montserrat-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E3325CE5D4600607DD0 /* Montserrat-ThinItalic.ttf */; };
+		EFB26E8025CE5D4600607DD0 /* Montserrat-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E3425CE5D4600607DD0 /* Montserrat-ExtraLight.ttf */; };
+		EFB26E8125CE5D4600607DD0 /* Montserrat-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E3525CE5D4600607DD0 /* Montserrat-Thin.ttf */; };
+		EFB26E8225CE5D4600607DD0 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E3625CE5D4600607DD0 /* Montserrat-Bold.ttf */; };
+		EFB26E8325CE5D4600607DD0 /* Montserrat-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E3725CE5D4600607DD0 /* Montserrat-MediumItalic.ttf */; };
+		EFB26E8425CE5D4600607DD0 /* Montserrat-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E3825CE5D4600607DD0 /* Montserrat-BlackItalic.ttf */; };
+		EFB26E8525CE5D4600607DD0 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E3925CE5D4600607DD0 /* Montserrat-SemiBold.ttf */; };
+		EFB26E8625CE5D4600607DD0 /* Montserrat-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E3A25CE5D4600607DD0 /* Montserrat-ExtraLightItalic.ttf */; };
+		EFB26E8725CE5D4600607DD0 /* Montserrat-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E3B25CE5D4600607DD0 /* Montserrat-ExtraBold.ttf */; };
+		EFB26E8825CE5D4600607DD0 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E3C25CE5D4600607DD0 /* OFL.txt */; };
+		EFB26E8925CE5D4600607DD0 /* Montserrat-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E3D25CE5D4600607DD0 /* Montserrat-Black.ttf */; };
+		EFB26E8A25CE5D4600607DD0 /* Montserrat-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E3E25CE5D4600607DD0 /* Montserrat-Regular.ttf */; };
+		EFB26E8B25CE5D4600607DD0 /* Montserrat-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E3F25CE5D4600607DD0 /* Montserrat-Italic.ttf */; };
+		EFB26E8C25CE5D4600607DD0 /* Montserrat-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E4025CE5D4600607DD0 /* Montserrat-SemiBoldItalic.ttf */; };
+		EFB26E8D25CE5D4600607DD0 /* Montserrat-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E4125CE5D4600607DD0 /* Montserrat-ExtraBoldItalic.ttf */; };
+		EFB26E8E25CE5D4600607DD0 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E4225CE5D4600607DD0 /* images.png */; };
+		EFB26E8F25CE5D4600607DD0 /* backgroundgreen.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB26E4325CE5D4600607DD0 /* backgroundgreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EFB26D6625CE581F00607DD0 /* RFDanceCircle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RFDanceCircle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFB26D6925CE581F00607DD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EFB26D6D25CE581F00607DD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EFB26D7025CE581F00607DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EFB26D7225CE582300607DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFB26D7525CE582300607DD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFB26D7725CE582300607DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFB26D8225CE59B800607DD0 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EFB26D8625CE59C800607DD0 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		EFB26D8F25CE5A5700607DD0 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		EFB26D9325CE5A6600607DD0 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		EFB26D9625CE5A7000607DD0 /* Points.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Points.swift; sourceTree = "<group>"; };
+		EFB26D9925CE5A7E00607DD0 /* CountAnimationLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountAnimationLabel.swift; sourceTree = "<group>"; };
+		EFB26D9C25CE5AB100607DD0 /* MovieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		EFB26D9F25CE5ACF00607DD0 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		EFB26DA225CE5AEC00607DD0 /* AddScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddScheduleViewController.swift; sourceTree = "<group>"; };
+		EFB26DA525CE5B0B00607DD0 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		EFB26DA825CE5B2300607DD0 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+		EFB26DAB25CE5B5100607DD0 /* TimeLineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineTableViewCell.swift; sourceTree = "<group>"; };
+		EFB26DAC25CE5B5100607DD0 /* TimeLineTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TimeLineTableViewCell.xib; sourceTree = "<group>"; };
+		EFB26DB025CE5C1800607DD0 /* ResourceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceModel.swift; sourceTree = "<group>"; };
+		EFB26DB325CE5C4400607DD0 /* ScaleAnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScaleAnimationViewController.swift; sourceTree = "<group>"; };
+		EFB26DB425CE5C4500607DD0 /* ScaleAnimationViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ScaleAnimationViewController.storyboard; sourceTree = "<group>"; };
+		EFB26DB825CE5C5600607DD0 /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFB26DBB25CE5C5F00607DD0 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		EFB26DBE25CE5C6A00607DD0 /* UICollectionViewPagingFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UICollectionViewPagingFlowLayout.swift; sourceTree = "<group>"; };
+		EFB26DC225CE5CAF00607DD0 /* TeacherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherViewController.swift; sourceTree = "<group>"; };
+		EFB26DC425CE5CAF00607DD0 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		EFB26DC625CE5CAF00607DD0 /* ViewModelBased.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelBased.swift; sourceTree = "<group>"; };
+		EFB26DC725CE5CAF00607DD0 /* UIView+Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Utilities.swift"; sourceTree = "<group>"; };
+		EFB26DC825CE5CAF00607DD0 /* NibBased.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibBased.swift; sourceTree = "<group>"; };
+		EFB26DCB25CE5CAF00607DD0 /* QuantityControllerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuantityControllerView.xib; sourceTree = "<group>"; };
+		EFB26DCC25CE5CAF00607DD0 /* QuantityControllerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuantityControllerView.swift; sourceTree = "<group>"; };
+		EFB26DCD25CE5CAF00607DD0 /* PageControlView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageControlView.swift; sourceTree = "<group>"; };
+		EFB26DCF25CE5CAF00607DD0 /* CollectionViewPagingLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewPagingLayout.swift; sourceTree = "<group>"; };
+		EFB26DD025CE5CAF00607DD0 /* TransformableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformableView.swift; sourceTree = "<group>"; };
+		EFB26DD325CE5CAF00607DD0 /* GalleryViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewModel.swift; sourceTree = "<group>"; };
+		EFB26DD425CE5CAF00607DD0 /* GalleryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GalleryViewController.xib; sourceTree = "<group>"; };
+		EFB26DD625CE5CAF00607DD0 /* PhotoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PhotoCollectionViewCell.xib; sourceTree = "<group>"; };
+		EFB26DD725CE5CAF00607DD0 /* PhotoCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCellViewModel.swift; sourceTree = "<group>"; };
+		EFB26DD825CE5CAF00607DD0 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		EFB26DD925CE5CAF00607DD0 /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
+		EFB26DEC25CE5CFF00607DD0 /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		EFB26DF025CE5D4500607DD0 /* rflogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rflogo.jpg; sourceTree = "<group>"; };
+		EFB26DF325CE5D4500607DD0 /* kiyomi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kiyomi.jpg; sourceTree = "<group>"; };
+		EFB26DF425CE5D4500607DD0 /* konomi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = konomi.jpg; sourceTree = "<group>"; };
+		EFB26DF525CE5D4500607DD0 /* motomi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = motomi.jpg; sourceTree = "<group>"; };
+		EFB26DF625CE5D4500607DD0 /* mitsu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mitsu.jpg; sourceTree = "<group>"; };
+		EFB26DF725CE5D4500607DD0 /* arisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arisa.jpg; sourceTree = "<group>"; };
+		EFB26DF925CE5D4500607DD0 /* iPhone 887×87@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 887×87@3x.png"; sourceTree = "<group>"; };
+		EFB26DFA25CE5D4500607DD0 /* R&Ficon1024.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "R&Ficon1024.jpg"; sourceTree = "<group>"; };
+		EFB26DFB25CE5D4500607DD0 /* iPhone 860×60@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 860×60@1x.png"; sourceTree = "<group>"; };
+		EFB26DFC25CE5D4500607DD0 /* iPhone 8167×167@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8167×167@2x.png"; sourceTree = "<group>"; };
+		EFB26DFD25CE5D4500607DD0 /* iTunesArtwork@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@1x.png"; sourceTree = "<group>"; };
+		EFB26DFF25CE5D4500607DD0 /* Icon-App-76x76@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@2x.png"; sourceTree = "<group>"; };
+		EFB26E0025CE5D4500607DD0 /* Icon-App-29x29@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@1x.png"; sourceTree = "<group>"; };
+		EFB26E0125CE5D4500607DD0 /* Icon-App-40x40@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@1x.png"; sourceTree = "<group>"; };
+		EFB26E0225CE5D4500607DD0 /* Icon-App-20x20@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@1x.png"; sourceTree = "<group>"; };
+		EFB26E0325CE5D4500607DD0 /* Icon-App-83.5x83.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-83.5x83.5@2x.png"; sourceTree = "<group>"; };
+		EFB26E0425CE5D4500607DD0 /* Icon-App-20x20@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@3x.png"; sourceTree = "<group>"; };
+		EFB26E0525CE5D4500607DD0 /* ItunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ItunesArtwork@2x.png"; sourceTree = "<group>"; };
+		EFB26E0625CE5D4500607DD0 /* Icon-App-20x20@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-20x20@2x.png"; sourceTree = "<group>"; };
+		EFB26E0725CE5D4500607DD0 /* Icon-App-29x29@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@3x.png"; sourceTree = "<group>"; };
+		EFB26E0825CE5D4500607DD0 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		EFB26E0925CE5D4500607DD0 /* Icon-App-60x60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@3x.png"; sourceTree = "<group>"; };
+		EFB26E0A25CE5D4600607DD0 /* Icon-App-60x60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-60x60@2x.png"; sourceTree = "<group>"; };
+		EFB26E0B25CE5D4600607DD0 /* Icon-App-76x76@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-76x76@1x.png"; sourceTree = "<group>"; };
+		EFB26E0C25CE5D4600607DD0 /* Icon-App-40x40@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@3x.png"; sourceTree = "<group>"; };
+		EFB26E0D25CE5D4600607DD0 /* Icon-App-29x29@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-29x29@2x.png"; sourceTree = "<group>"; };
+		EFB26E0E25CE5D4600607DD0 /* lessonSchedule.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lessonSchedule.png; sourceTree = "<group>"; };
+		EFB26E0F25CE5D4600607DD0 /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		EFB26E1025CE5D4600607DD0 /* iPhone 8120×120@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8120×120@3x.png"; sourceTree = "<group>"; };
+		EFB26E1125CE5D4600607DD0 /* iPhone 8120×120@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8120×120@2x.png"; sourceTree = "<group>"; };
+		EFB26E1225CE5D4600607DD0 /* iTunesArtwork@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@3x.png"; sourceTree = "<group>"; };
+		EFB26E1325CE5D4600607DD0 /* iPhone 8180×180@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8180×180@3x.png"; sourceTree = "<group>"; };
+		EFB26E1425CE5D4600607DD0 /* iPhone 8152×152@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 8152×152@2x.png"; sourceTree = "<group>"; };
+		EFB26E1525CE5D4600607DD0 /* iPhone 880×80@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 880×80@2x.png"; sourceTree = "<group>"; };
+		EFB26E1625CE5D4600607DD0 /* iPhone 858×58@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iPhone 858×58@2x.png"; sourceTree = "<group>"; };
+		EFB26E1825CE5D4600607DD0 /* HIPHOP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HIPHOP.png; sourceTree = "<group>"; };
+		EFB26E1925CE5D4600607DD0 /* LOCK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LOCK.png; sourceTree = "<group>"; };
+		EFB26E1A25CE5D4600607DD0 /* JAZZFUNK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JAZZFUNK.png; sourceTree = "<group>"; };
+		EFB26E1B25CE5D4600607DD0 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		EFB26E1C25CE5D4600607DD0 /* POP.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = POP.png; sourceTree = "<group>"; };
+		EFB26E1D25CE5D4600607DD0 /* VOGUE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VOGUE.png; sourceTree = "<group>"; };
+		EFB26E1E25CE5D4600607DD0 /* WAACK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WAACK.png; sourceTree = "<group>"; };
+		EFB26E1F25CE5D4600607DD0 /* status.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = status.png; sourceTree = "<group>"; };
+		EFB26E2025CE5D4600607DD0 /* unnamed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = unnamed.png; sourceTree = "<group>"; };
+		EFB26E2125CE5D4600607DD0 /* JAZZ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = JAZZ.png; sourceTree = "<group>"; };
+		EFB26E2225CE5D4600607DD0 /* ランク画像.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ランク画像.png"; sourceTree = "<group>"; };
+		EFB26E2425CE5D4600607DD0 /* TanukiMagic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = TanukiMagic.ttf; sourceTree = "<group>"; };
+		EFB26E2625CE5D4600607DD0 /* SourceHanSans-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSans-Heavy.otf"; sourceTree = "<group>"; };
+		EFB26E2725CE5D4600607DD0 /* SourceHanSans-Normal.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSans-Normal.otf"; sourceTree = "<group>"; };
+		EFB26E2825CE5D4600607DD0 /* SourceHanSans-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSans-ExtraLight.otf"; sourceTree = "<group>"; };
+		EFB26E2925CE5D4600607DD0 /* SourceHanSans-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSans-Light.otf"; sourceTree = "<group>"; };
+		EFB26E2A25CE5D4600607DD0 /* SourceHanSans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSans-Bold.otf"; sourceTree = "<group>"; };
+		EFB26E2B25CE5D4600607DD0 /* SourceHanSans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSans-Regular.otf"; sourceTree = "<group>"; };
+		EFB26E2C25CE5D4600607DD0 /* SourceHanSans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SourceHanSans-Medium.otf"; sourceTree = "<group>"; };
+		EFB26E2D25CE5D4600607DD0 /* 07にくまるフォント.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "07にくまるフォント.otf"; sourceTree = "<group>"; };
+		EFB26E2F25CE5D4600607DD0 /* Montserrat-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-LightItalic.ttf"; sourceTree = "<group>"; };
+		EFB26E3025CE5D4600607DD0 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		EFB26E3125CE5D4600607DD0 /* Montserrat-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BoldItalic.ttf"; sourceTree = "<group>"; };
+		EFB26E3225CE5D4600607DD0 /* Montserrat-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Light.ttf"; sourceTree = "<group>"; };
+		EFB26E3325CE5D4600607DD0 /* Montserrat-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ThinItalic.ttf"; sourceTree = "<group>"; };
+		EFB26E3425CE5D4600607DD0 /* Montserrat-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLight.ttf"; sourceTree = "<group>"; };
+		EFB26E3525CE5D4600607DD0 /* Montserrat-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Thin.ttf"; sourceTree = "<group>"; };
+		EFB26E3625CE5D4600607DD0 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		EFB26E3725CE5D4600607DD0 /* Montserrat-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-MediumItalic.ttf"; sourceTree = "<group>"; };
+		EFB26E3825CE5D4600607DD0 /* Montserrat-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-BlackItalic.ttf"; sourceTree = "<group>"; };
+		EFB26E3925CE5D4600607DD0 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		EFB26E3A25CE5D4600607DD0 /* Montserrat-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		EFB26E3B25CE5D4600607DD0 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		EFB26E3C25CE5D4600607DD0 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		EFB26E3D25CE5D4600607DD0 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		EFB26E3E25CE5D4600607DD0 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		EFB26E3F25CE5D4600607DD0 /* Montserrat-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Italic.ttf"; sourceTree = "<group>"; };
+		EFB26E4025CE5D4600607DD0 /* Montserrat-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		EFB26E4125CE5D4600607DD0 /* Montserrat-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		EFB26E4225CE5D4600607DD0 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		EFB26E4325CE5D4600607DD0 /* backgroundgreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundgreen.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,13 +277,324 @@
 			isa = PBXGroup;
 			children = (
 				EFB26D6925CE581F00607DD0 /* AppDelegate.swift */,
-				EFB26D6D25CE581F00607DD0 /* ViewController.swift */,
+				EFB26D8125CE599400607DD0 /* Login */,
+				EFB26D8025CE598E00607DD0 /* Main */,
+				EFB26DEF25CE5D4500607DD0 /* Commons */,
 				EFB26D6F25CE581F00607DD0 /* Main.storyboard */,
-				EFB26D7225CE582300607DD0 /* Assets.xcassets */,
+				EFB26DEC25CE5CFF00607DD0 /* Login.storyboard */,
 				EFB26D7425CE582300607DD0 /* LaunchScreen.storyboard */,
+				EFB26D7225CE582300607DD0 /* Assets.xcassets */,
 				EFB26D7725CE582300607DD0 /* Info.plist */,
 			);
 			path = RFDanceCircle;
+			sourceTree = "<group>";
+		};
+		EFB26D8025CE598E00607DD0 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26D8E25CE5A3300607DD0 /* Models */,
+				EFB26D8D25CE5A2800607DD0 /* Movie */,
+				EFB26D8C25CE5A2100607DD0 /* Schedule */,
+				EFB26D8B25CE5A1A00607DD0 /* Profile */,
+				EFB26D8A25CE5A1300607DD0 /* Info */,
+				EFB26DC125CE5CAF00607DD0 /* Teacher */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EFB26D8125CE599400607DD0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26D8225CE59B800607DD0 /* SignUpViewController.swift */,
+				EFB26D8625CE59C800607DD0 /* SignInViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		EFB26D8A25CE5A1300607DD0 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26DB025CE5C1800607DD0 /* ResourceModel.swift */,
+				EFB26DB425CE5C4500607DD0 /* ScaleAnimationViewController.storyboard */,
+				EFB26DB325CE5C4400607DD0 /* ScaleAnimationViewController.swift */,
+				EFB26DB825CE5C5600607DD0 /* ImageCollectionViewCell.swift */,
+				EFB26DBB25CE5C5F00607DD0 /* ImageCollectionViewCell.xib */,
+				EFB26DBE25CE5C6A00607DD0 /* UICollectionViewPagingFlowLayout.swift */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		EFB26D8B25CE5A1A00607DD0 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26DA525CE5B0B00607DD0 /* ProfileViewController.swift */,
+				EFB26DA825CE5B2300607DD0 /* RankingViewController.swift */,
+				EFB26DAB25CE5B5100607DD0 /* TimeLineTableViewCell.swift */,
+				EFB26DAC25CE5B5100607DD0 /* TimeLineTableViewCell.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		EFB26D8C25CE5A2100607DD0 /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26D9F25CE5ACF00607DD0 /* ScheduleViewController.swift */,
+				EFB26DA225CE5AEC00607DD0 /* AddScheduleViewController.swift */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		EFB26D8D25CE5A2800607DD0 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26D9C25CE5AB100607DD0 /* MovieViewController.swift */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		EFB26D8E25CE5A3300607DD0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26D8F25CE5A5700607DD0 /* Users.swift */,
+				EFB26D9325CE5A6600607DD0 /* Notes.swift */,
+				EFB26D9625CE5A7000607DD0 /* Points.swift */,
+				EFB26D9925CE5A7E00607DD0 /* CountAnimationLabel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EFB26DC125CE5CAF00607DD0 /* Teacher */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26DC225CE5CAF00607DD0 /* TeacherViewController.swift */,
+				EFB26DC325CE5CAF00607DD0 /* Models */,
+				EFB26DC525CE5CAF00607DD0 /* Utilities */,
+				EFB26DC925CE5CAF00607DD0 /* CustomViews */,
+				EFB26DCE25CE5CAF00607DD0 /* Lib */,
+				EFB26DD125CE5CAF00607DD0 /* Modules */,
+			);
+			path = Teacher;
+			sourceTree = "<group>";
+		};
+		EFB26DC325CE5CAF00607DD0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26DC425CE5CAF00607DD0 /* Photo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EFB26DC525CE5CAF00607DD0 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26DC625CE5CAF00607DD0 /* ViewModelBased.swift */,
+				EFB26DC725CE5CAF00607DD0 /* UIView+Utilities.swift */,
+				EFB26DC825CE5CAF00607DD0 /* NibBased.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		EFB26DC925CE5CAF00607DD0 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26DCA25CE5CAF00607DD0 /* QuantityControllerView */,
+				EFB26DCD25CE5CAF00607DD0 /* PageControlView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		EFB26DCA25CE5CAF00607DD0 /* QuantityControllerView */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26DCB25CE5CAF00607DD0 /* QuantityControllerView.xib */,
+				EFB26DCC25CE5CAF00607DD0 /* QuantityControllerView.swift */,
+			);
+			path = QuantityControllerView;
+			sourceTree = "<group>";
+		};
+		EFB26DCE25CE5CAF00607DD0 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26DCF25CE5CAF00607DD0 /* CollectionViewPagingLayout.swift */,
+				EFB26DD025CE5CAF00607DD0 /* TransformableView.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		EFB26DD125CE5CAF00607DD0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26DD225CE5CAF00607DD0 /* Gallery */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EFB26DD225CE5CAF00607DD0 /* Gallery */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26DD325CE5CAF00607DD0 /* GalleryViewModel.swift */,
+				EFB26DD425CE5CAF00607DD0 /* GalleryViewController.xib */,
+				EFB26DD525CE5CAF00607DD0 /* Cell */,
+				EFB26DD925CE5CAF00607DD0 /* GalleryViewController.swift */,
+			);
+			path = Gallery;
+			sourceTree = "<group>";
+		};
+		EFB26DD525CE5CAF00607DD0 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26DD625CE5CAF00607DD0 /* PhotoCollectionViewCell.xib */,
+				EFB26DD725CE5CAF00607DD0 /* PhotoCellViewModel.swift */,
+				EFB26DD825CE5CAF00607DD0 /* PhotoCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EFB26DEF25CE5D4500607DD0 /* Commons */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26DF025CE5D4500607DD0 /* rflogo.jpg */,
+				EFB26DF125CE5D4500607DD0 /* Images */,
+				EFB26E1725CE5D4600607DD0 /* Info */,
+				EFB26E1F25CE5D4600607DD0 /* status.png */,
+				EFB26E2025CE5D4600607DD0 /* unnamed.png */,
+				EFB26E2125CE5D4600607DD0 /* JAZZ.png */,
+				EFB26E2225CE5D4600607DD0 /* ランク画像.png */,
+				EFB26E2325CE5D4600607DD0 /* Fonts */,
+				EFB26E4225CE5D4600607DD0 /* images.png */,
+				EFB26E4325CE5D4600607DD0 /* backgroundgreen.png */,
+			);
+			path = Commons;
+			sourceTree = "<group>";
+		};
+		EFB26DF125CE5D4500607DD0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26DF225CE5D4500607DD0 /* teacherImages */,
+				EFB26DF825CE5D4500607DD0 /* Icon */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		EFB26DF225CE5D4500607DD0 /* teacherImages */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26DF325CE5D4500607DD0 /* kiyomi.jpg */,
+				EFB26DF425CE5D4500607DD0 /* konomi.jpg */,
+				EFB26DF525CE5D4500607DD0 /* motomi.jpg */,
+				EFB26DF625CE5D4500607DD0 /* mitsu.jpg */,
+				EFB26DF725CE5D4500607DD0 /* arisa.jpg */,
+			);
+			path = teacherImages;
+			sourceTree = "<group>";
+		};
+		EFB26DF825CE5D4500607DD0 /* Icon */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26DF925CE5D4500607DD0 /* iPhone 887×87@3x.png */,
+				EFB26DFA25CE5D4500607DD0 /* R&Ficon1024.jpg */,
+				EFB26DFB25CE5D4500607DD0 /* iPhone 860×60@1x.png */,
+				EFB26DFC25CE5D4500607DD0 /* iPhone 8167×167@2x.png */,
+				EFB26DFD25CE5D4500607DD0 /* iTunesArtwork@1x.png */,
+				EFB26DFE25CE5D4500607DD0 /* AppIcon.appiconset */,
+				EFB26E0E25CE5D4600607DD0 /* lessonSchedule.png */,
+				EFB26E0F25CE5D4600607DD0 /* iTunesArtwork@2x.png */,
+				EFB26E1025CE5D4600607DD0 /* iPhone 8120×120@3x.png */,
+				EFB26E1125CE5D4600607DD0 /* iPhone 8120×120@2x.png */,
+				EFB26E1225CE5D4600607DD0 /* iTunesArtwork@3x.png */,
+				EFB26E1325CE5D4600607DD0 /* iPhone 8180×180@3x.png */,
+				EFB26E1425CE5D4600607DD0 /* iPhone 8152×152@2x.png */,
+				EFB26E1525CE5D4600607DD0 /* iPhone 880×80@2x.png */,
+				EFB26E1625CE5D4600607DD0 /* iPhone 858×58@2x.png */,
+			);
+			path = Icon;
+			sourceTree = "<group>";
+		};
+		EFB26DFE25CE5D4500607DD0 /* AppIcon.appiconset */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26DFF25CE5D4500607DD0 /* Icon-App-76x76@2x.png */,
+				EFB26E0025CE5D4500607DD0 /* Icon-App-29x29@1x.png */,
+				EFB26E0125CE5D4500607DD0 /* Icon-App-40x40@1x.png */,
+				EFB26E0225CE5D4500607DD0 /* Icon-App-20x20@1x.png */,
+				EFB26E0325CE5D4500607DD0 /* Icon-App-83.5x83.5@2x.png */,
+				EFB26E0425CE5D4500607DD0 /* Icon-App-20x20@3x.png */,
+				EFB26E0525CE5D4500607DD0 /* ItunesArtwork@2x.png */,
+				EFB26E0625CE5D4500607DD0 /* Icon-App-20x20@2x.png */,
+				EFB26E0725CE5D4500607DD0 /* Icon-App-29x29@3x.png */,
+				EFB26E0825CE5D4500607DD0 /* Icon-App-40x40@2x.png */,
+				EFB26E0925CE5D4500607DD0 /* Icon-App-60x60@3x.png */,
+				EFB26E0A25CE5D4600607DD0 /* Icon-App-60x60@2x.png */,
+				EFB26E0B25CE5D4600607DD0 /* Icon-App-76x76@1x.png */,
+				EFB26E0C25CE5D4600607DD0 /* Icon-App-40x40@3x.png */,
+				EFB26E0D25CE5D4600607DD0 /* Icon-App-29x29@2x.png */,
+			);
+			path = AppIcon.appiconset;
+			sourceTree = "<group>";
+		};
+		EFB26E1725CE5D4600607DD0 /* Info */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26E1825CE5D4600607DD0 /* HIPHOP.png */,
+				EFB26E1925CE5D4600607DD0 /* LOCK.png */,
+				EFB26E1A25CE5D4600607DD0 /* JAZZFUNK.png */,
+				EFB26E1B25CE5D4600607DD0 /* background.jpg */,
+				EFB26E1C25CE5D4600607DD0 /* POP.png */,
+				EFB26E1D25CE5D4600607DD0 /* VOGUE.png */,
+				EFB26E1E25CE5D4600607DD0 /* WAACK.png */,
+			);
+			path = Info;
+			sourceTree = "<group>";
+		};
+		EFB26E2325CE5D4600607DD0 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26E2425CE5D4600607DD0 /* TanukiMagic.ttf */,
+				EFB26E2525CE5D4600607DD0 /* Japanese */,
+				EFB26E2D25CE5D4600607DD0 /* 07にくまるフォント.otf */,
+				EFB26E2E25CE5D4600607DD0 /* Montserrat */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EFB26E2525CE5D4600607DD0 /* Japanese */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26E2625CE5D4600607DD0 /* SourceHanSans-Heavy.otf */,
+				EFB26E2725CE5D4600607DD0 /* SourceHanSans-Normal.otf */,
+				EFB26E2825CE5D4600607DD0 /* SourceHanSans-ExtraLight.otf */,
+				EFB26E2925CE5D4600607DD0 /* SourceHanSans-Light.otf */,
+				EFB26E2A25CE5D4600607DD0 /* SourceHanSans-Bold.otf */,
+				EFB26E2B25CE5D4600607DD0 /* SourceHanSans-Regular.otf */,
+				EFB26E2C25CE5D4600607DD0 /* SourceHanSans-Medium.otf */,
+			);
+			path = Japanese;
+			sourceTree = "<group>";
+		};
+		EFB26E2E25CE5D4600607DD0 /* Montserrat */ = {
+			isa = PBXGroup;
+			children = (
+				EFB26E2F25CE5D4600607DD0 /* Montserrat-LightItalic.ttf */,
+				EFB26E3025CE5D4600607DD0 /* Montserrat-Medium.ttf */,
+				EFB26E3125CE5D4600607DD0 /* Montserrat-BoldItalic.ttf */,
+				EFB26E3225CE5D4600607DD0 /* Montserrat-Light.ttf */,
+				EFB26E3325CE5D4600607DD0 /* Montserrat-ThinItalic.ttf */,
+				EFB26E3425CE5D4600607DD0 /* Montserrat-ExtraLight.ttf */,
+				EFB26E3525CE5D4600607DD0 /* Montserrat-Thin.ttf */,
+				EFB26E3625CE5D4600607DD0 /* Montserrat-Bold.ttf */,
+				EFB26E3725CE5D4600607DD0 /* Montserrat-MediumItalic.ttf */,
+				EFB26E3825CE5D4600607DD0 /* Montserrat-BlackItalic.ttf */,
+				EFB26E3925CE5D4600607DD0 /* Montserrat-SemiBold.ttf */,
+				EFB26E3A25CE5D4600607DD0 /* Montserrat-ExtraLightItalic.ttf */,
+				EFB26E3B25CE5D4600607DD0 /* Montserrat-ExtraBold.ttf */,
+				EFB26E3C25CE5D4600607DD0 /* OFL.txt */,
+				EFB26E3D25CE5D4600607DD0 /* Montserrat-Black.ttf */,
+				EFB26E3E25CE5D4600607DD0 /* Montserrat-Regular.ttf */,
+				EFB26E3F25CE5D4600607DD0 /* Montserrat-Italic.ttf */,
+				EFB26E4025CE5D4600607DD0 /* Montserrat-SemiBoldItalic.ttf */,
+				EFB26E4125CE5D4600607DD0 /* Montserrat-ExtraBoldItalic.ttf */,
+			);
+			path = Montserrat;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -121,9 +654,92 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFB26DDF25CE5CAF00607DD0 /* QuantityControllerView.xib in Resources */,
+				EFB26E4D25CE5D4600607DD0 /* iPhone 8167×167@2x.png in Resources */,
+				EFB26E6F25CE5D4600607DD0 /* unnamed.png in Resources */,
+				EFB26DE525CE5CAF00607DD0 /* GalleryViewController.xib in Resources */,
+				EFB26E6125CE5D4600607DD0 /* iPhone 8120×120@2x.png in Resources */,
+				EFB26E4425CE5D4600607DD0 /* rflogo.jpg in Resources */,
+				EFB26E7625CE5D4600607DD0 /* SourceHanSans-Light.otf in Resources */,
+				EFB26E5E25CE5D4600607DD0 /* lessonSchedule.png in Resources */,
+				EFB26E4A25CE5D4600607DD0 /* iPhone 887×87@3x.png in Resources */,
+				EFB26E8A25CE5D4600607DD0 /* Montserrat-Regular.ttf in Resources */,
+				EFB26E6225CE5D4600607DD0 /* iTunesArtwork@3x.png in Resources */,
+				EFB26E8525CE5D4600607DD0 /* Montserrat-SemiBold.ttf in Resources */,
+				EFB26E5725CE5D4600607DD0 /* Icon-App-29x29@3x.png in Resources */,
+				EFB26E7A25CE5D4600607DD0 /* 07にくまるフォント.otf in Resources */,
+				EFB26E8625CE5D4600607DD0 /* Montserrat-ExtraLightItalic.ttf in Resources */,
+				EFB26E7425CE5D4600607DD0 /* SourceHanSans-Normal.otf in Resources */,
+				EFB26E7725CE5D4600607DD0 /* SourceHanSans-Bold.otf in Resources */,
+				EFB26E5A25CE5D4600607DD0 /* Icon-App-60x60@2x.png in Resources */,
+				EFB26E6825CE5D4600607DD0 /* LOCK.png in Resources */,
+				EFB26E7025CE5D4600607DD0 /* JAZZ.png in Resources */,
+				EFB26E7C25CE5D4600607DD0 /* Montserrat-Medium.ttf in Resources */,
+				EFB26E5B25CE5D4600607DD0 /* Icon-App-76x76@1x.png in Resources */,
+				EFB26E5D25CE5D4600607DD0 /* Icon-App-29x29@2x.png in Resources */,
+				EFB26E7D25CE5D4600607DD0 /* Montserrat-BoldItalic.ttf in Resources */,
+				EFB26E6B25CE5D4600607DD0 /* POP.png in Resources */,
+				EFB26E4C25CE5D4600607DD0 /* iPhone 860×60@1x.png in Resources */,
+				EFB26E8E25CE5D4600607DD0 /* images.png in Resources */,
+				EFB26E6725CE5D4600607DD0 /* HIPHOP.png in Resources */,
+				EFB26DAE25CE5B5100607DD0 /* TimeLineTableViewCell.xib in Resources */,
+				EFB26E8225CE5D4600607DD0 /* Montserrat-Bold.ttf in Resources */,
+				EFB26E8B25CE5D4600607DD0 /* Montserrat-Italic.ttf in Resources */,
+				EFB26DE625CE5CAF00607DD0 /* PhotoCollectionViewCell.xib in Resources */,
+				EFB26E8825CE5D4600607DD0 /* OFL.txt in Resources */,
+				EFB26E7525CE5D4600607DD0 /* SourceHanSans-ExtraLight.otf in Resources */,
+				EFB26E5F25CE5D4600607DD0 /* iTunesArtwork@2x.png in Resources */,
+				EFB26E6E25CE5D4600607DD0 /* status.png in Resources */,
+				EFB26E5325CE5D4600607DD0 /* Icon-App-83.5x83.5@2x.png in Resources */,
+				EFB26E5225CE5D4600607DD0 /* Icon-App-20x20@1x.png in Resources */,
+				EFB26E8325CE5D4600607DD0 /* Montserrat-MediumItalic.ttf in Resources */,
+				EFB26E6025CE5D4600607DD0 /* iPhone 8120×120@3x.png in Resources */,
+				EFB26E5025CE5D4600607DD0 /* Icon-App-29x29@1x.png in Resources */,
+				EFB26E7E25CE5D4600607DD0 /* Montserrat-Light.ttf in Resources */,
 				EFB26D7625CE582300607DD0 /* LaunchScreen.storyboard in Resources */,
+				EFB26DB625CE5C4500607DD0 /* ScaleAnimationViewController.storyboard in Resources */,
+				EFB26E8925CE5D4600607DD0 /* Montserrat-Black.ttf in Resources */,
+				EFB26E7225CE5D4600607DD0 /* TanukiMagic.ttf in Resources */,
+				EFB26E6625CE5D4600607DD0 /* iPhone 858×58@2x.png in Resources */,
+				EFB26E7825CE5D4600607DD0 /* SourceHanSans-Regular.otf in Resources */,
+				EFB26E5625CE5D4600607DD0 /* Icon-App-20x20@2x.png in Resources */,
+				EFB26E6525CE5D4600607DD0 /* iPhone 880×80@2x.png in Resources */,
+				EFB26E8025CE5D4600607DD0 /* Montserrat-ExtraLight.ttf in Resources */,
+				EFB26E4E25CE5D4600607DD0 /* iTunesArtwork@1x.png in Resources */,
+				EFB26E6325CE5D4600607DD0 /* iPhone 8180×180@3x.png in Resources */,
+				EFB26E7125CE5D4600607DD0 /* ランク画像.png in Resources */,
 				EFB26D7325CE582300607DD0 /* Assets.xcassets in Resources */,
+				EFB26E8F25CE5D4600607DD0 /* backgroundgreen.png in Resources */,
+				EFB26E8125CE5D4600607DD0 /* Montserrat-Thin.ttf in Resources */,
+				EFB26E4925CE5D4600607DD0 /* arisa.jpg in Resources */,
+				EFB26DBC25CE5C5F00607DD0 /* ImageCollectionViewCell.xib in Resources */,
+				EFB26E7B25CE5D4600607DD0 /* Montserrat-LightItalic.ttf in Resources */,
+				EFB26DED25CE5CFF00607DD0 /* Login.storyboard in Resources */,
 				EFB26D7125CE581F00607DD0 /* Main.storyboard in Resources */,
+				EFB26E6925CE5D4600607DD0 /* JAZZFUNK.png in Resources */,
+				EFB26E5525CE5D4600607DD0 /* ItunesArtwork@2x.png in Resources */,
+				EFB26E6425CE5D4600607DD0 /* iPhone 8152×152@2x.png in Resources */,
+				EFB26E4F25CE5D4600607DD0 /* Icon-App-76x76@2x.png in Resources */,
+				EFB26E5C25CE5D4600607DD0 /* Icon-App-40x40@3x.png in Resources */,
+				EFB26E4525CE5D4600607DD0 /* kiyomi.jpg in Resources */,
+				EFB26E4B25CE5D4600607DD0 /* R&Ficon1024.jpg in Resources */,
+				EFB26E7325CE5D4600607DD0 /* SourceHanSans-Heavy.otf in Resources */,
+				EFB26E4725CE5D4600607DD0 /* motomi.jpg in Resources */,
+				EFB26E8425CE5D4600607DD0 /* Montserrat-BlackItalic.ttf in Resources */,
+				EFB26E5425CE5D4600607DD0 /* Icon-App-20x20@3x.png in Resources */,
+				EFB26E8C25CE5D4600607DD0 /* Montserrat-SemiBoldItalic.ttf in Resources */,
+				EFB26E5925CE5D4600607DD0 /* Icon-App-60x60@3x.png in Resources */,
+				EFB26E6A25CE5D4600607DD0 /* background.jpg in Resources */,
+				EFB26E5125CE5D4600607DD0 /* Icon-App-40x40@1x.png in Resources */,
+				EFB26E7925CE5D4600607DD0 /* SourceHanSans-Medium.otf in Resources */,
+				EFB26E7F25CE5D4600607DD0 /* Montserrat-ThinItalic.ttf in Resources */,
+				EFB26E5825CE5D4600607DD0 /* Icon-App-40x40@2x.png in Resources */,
+				EFB26E8725CE5D4600607DD0 /* Montserrat-ExtraBold.ttf in Resources */,
+				EFB26E6C25CE5D4600607DD0 /* VOGUE.png in Resources */,
+				EFB26E4625CE5D4600607DD0 /* konomi.jpg in Resources */,
+				EFB26E8D25CE5D4600607DD0 /* Montserrat-ExtraBoldItalic.ttf in Resources */,
+				EFB26E4825CE5D4600607DD0 /* mitsu.jpg in Resources */,
+				EFB26E6D25CE5D4600607DD0 /* WAACK.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +750,36 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFB26D6E25CE581F00607DD0 /* ViewController.swift in Sources */,
+				EFB26DB925CE5C5600607DD0 /* ImageCollectionViewCell.swift in Sources */,
+				EFB26DE425CE5CAF00607DD0 /* GalleryViewModel.swift in Sources */,
+				EFB26D8725CE59C800607DD0 /* SignInViewController.swift in Sources */,
+				EFB26D8325CE59B800607DD0 /* SignUpViewController.swift in Sources */,
+				EFB26DA925CE5B2300607DD0 /* RankingViewController.swift in Sources */,
+				EFB26DDB25CE5CAF00607DD0 /* Photo.swift in Sources */,
+				EFB26D9025CE5A5700607DD0 /* Users.swift in Sources */,
+				EFB26DE325CE5CAF00607DD0 /* TransformableView.swift in Sources */,
+				EFB26DB525CE5C4500607DD0 /* ScaleAnimationViewController.swift in Sources */,
+				EFB26D9725CE5A7000607DD0 /* Points.swift in Sources */,
+				EFB26DE825CE5CAF00607DD0 /* PhotoCollectionViewCell.swift in Sources */,
+				EFB26DE125CE5CAF00607DD0 /* PageControlView.swift in Sources */,
+				EFB26DA025CE5ACF00607DD0 /* ScheduleViewController.swift in Sources */,
+				EFB26DDE25CE5CAF00607DD0 /* NibBased.swift in Sources */,
+				EFB26DE225CE5CAF00607DD0 /* CollectionViewPagingLayout.swift in Sources */,
+				EFB26DA625CE5B0B00607DD0 /* ProfileViewController.swift in Sources */,
+				EFB26D9D25CE5AB100607DD0 /* MovieViewController.swift in Sources */,
+				EFB26DDA25CE5CAF00607DD0 /* TeacherViewController.swift in Sources */,
+				EFB26D9A25CE5A7E00607DD0 /* CountAnimationLabel.swift in Sources */,
+				EFB26DB125CE5C1800607DD0 /* ResourceModel.swift in Sources */,
 				EFB26D6A25CE581F00607DD0 /* AppDelegate.swift in Sources */,
+				EFB26DE925CE5CAF00607DD0 /* GalleryViewController.swift in Sources */,
+				EFB26DBF25CE5C6A00607DD0 /* UICollectionViewPagingFlowLayout.swift in Sources */,
+				EFB26DA325CE5AEC00607DD0 /* AddScheduleViewController.swift in Sources */,
+				EFB26DAD25CE5B5100607DD0 /* TimeLineTableViewCell.swift in Sources */,
+				EFB26DDC25CE5CAF00607DD0 /* ViewModelBased.swift in Sources */,
+				EFB26DE025CE5CAF00607DD0 /* QuantityControllerView.swift in Sources */,
+				EFB26DE725CE5CAF00607DD0 /* PhotoCellViewModel.swift in Sources */,
+				EFB26D9425CE5A6600607DD0 /* Notes.swift in Sources */,
+				EFB26DDD25CE5CAF00607DD0 /* UIView+Utilities.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
