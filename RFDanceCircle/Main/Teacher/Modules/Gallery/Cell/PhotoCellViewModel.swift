@@ -1,9 +1,9 @@
 //
 //  PhotoCellViewModel.swift
-//  CollectionViewPagingLayout
+//  R&FDanceCircleApp
 //
-//  Created by Amir Khorsandi on 12/27/19.
-//  Copyright © 2019 Amir Khorsandi. All rights reserved.
+//  Created by YukiNagai on 2020/01/30.
+//  Copyright © 2020 YukiNagai. All rights reserved.
 //
 
 import Foundation
